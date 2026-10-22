@@ -1,0 +1,99 @@
+/* External CSS */
+/* h1{
+    color: yellow;
+    background-color: chartreuse;
+} */
+
+
+/* Colors */
+
+/* 1. Named Color */
+/* h1{
+    color: red;
+} */
+
+/* 2. Hexadecimal */
+/* h1{
+    color: #ff0000;
+    color: #00ff00;
+    color: #0000ff;
+
+    color: #ff1234;
+    color: #89ff09;
+    color: #4578ff;
+} */
+
+/* 3. RGB - Red Green Blue*/
+/* h1{
+    color: rgb(255,0,0);
+    color: rgb(0,255,0);
+    color: rgb(0,0,255);
+
+    color: rgb(153, 43, 178);
+} */
+
+/* 4.RGBA - Red Green Blue Alpha */
+/* h1{
+    color: rgba(67,122,198,1);
+} */
+
+/* 5. HSL - Hue Saturation Lightness */
+/* h1{
+    color: hsl(136, 81%, 48%);
+} */
+
+/* 6. HSLA - Hue Saturation Lightness Alpha */
+/* h1{
+    color: hsla(122, 94%, 51%, 0);
+} */
+
+
+/* Background Color */
+
+/* h1{
+    background-color: rgb(234, 240, 50);
+} */
+
+
+/* Selectors */
+
+/* Universal Selector */
+/* *{
+    background-color: aqua;
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+} */
+
+/* ID - Selector */
+/* #head{
+    color: aqua;
+    background-color: yellow;
+} */
+
+/* Class - selector */
+/* .container{
+    color: blue;
+    font-size: 50px;
+} */
+
+/* #container{
+    background-color: aqua;
+}
+.head{
+    color: red;
+} */
+
+/* Element Selector */
+/* h1{
+    color: pink;
+} */
+
+/* Grouping Selector */
+/* h1,span,h6{
+    color: red;
+} */
+
+/* Descendant Selector */
+/* .desc p{
+    color: red;
+} */
