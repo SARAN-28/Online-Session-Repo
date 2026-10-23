@@ -1,0 +1,111 @@
+/* Child Selector */
+/* .child > div{
+    color: red;
+} */
+
+
+/* Adjacent Siblings Selector */
+/* .adj h1+p{
+    color: aqua;
+} */
+
+
+/* General Siblings Selector */
+/* .general h1~p{
+    color: aqua;
+} */
+
+
+/* Attribute Selector */
+/* [type="password"]{
+    border-width: 2px;
+    border-color: red;
+    border-style: dotted;
+    color: yellow;
+} */
+
+
+/* Border */
+/* button{
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    border-style: dashed;
+    border-style: dotted;
+
+    border: 5px solid blue;
+    border-radius: 8px;
+    border: none;
+    background-color: aqua;
+} */
+
+
+/* Background Image */
+/* *{
+    background-image: url(./icons8-css-logo-48.png);
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+/* *{
+    background-image: url(./pexels-sidesimagery-3106799.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+ } */
+
+
+
+/* Reset - Margin, Padding */
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+
+/* Margin */
+/* button{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-bottom: 200px;
+ } */
+/* button{
+    margin: 50px 30px 0px 200px;
+} */
+/* button{
+    margin: 50px 300px;
+ } */
+
+
+/* Padding */
+/* button{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-bottom: 300px;
+} */
+/* button{
+    padding: 100px 0px 500px 200px;
+} */
+/* button{
+    padding: 30px 100px;
+ } */
+
+
+/* Height & Width */
+/* div {
+    height: 200px;
+    width: 80%;
+    background-color: red;
+}
+
+button {
+    height: 100px;
+    width: 500px;
+} */
