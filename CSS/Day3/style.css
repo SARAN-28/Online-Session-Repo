@@ -1,0 +1,150 @@
+/* Box Model */
+/* p{
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+} */
+
+/* Box Sizing */
+/* p {
+    box-sizing: content-box;
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+} */
+
+/* p{
+    box-sizing: border-box;
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+} */
+
+
+/* Outline */
+/* button{
+    border: 2px solid red;
+    outline: 2px solid green;
+
+    outline-width: 5px;
+    outline-style: dotted;
+    outline-color: aqua;
+} */
+
+
+/* Text */
+/* p{ */
+
+    /* Text Color */
+    /* color: red; */
+
+    /* Text Alignment */
+    /* text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify; */
+
+    /* Text Decoration */
+    /* text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration: none; */
+
+    /* Text Transform */
+    /* text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: none; */
+
+    /* Text Spacing */
+    /* letter-spacing: 15px; */
+    /* word-spacing: 20px; */
+
+    /* Text Shadow */
+    /* text-shadow: 2px 2px 2px black; */
+/* } */
+
+/* .underline{
+    text-decoration: underline;
+} */
+
+
+/* Font */
+/* p{ */
+
+    /* Font Family */
+    /* font-family: 'Times New Roman', Times, serif; */
+
+    /* Font Style */
+    /* font-style: italic;
+    font-style: oblique;
+    font-style: normal; */
+
+    /* Font Size */
+    /* font-size: 30px;
+    font-size: xx-small;
+    font-size: large; */
+
+    /* Font Weight */
+    /* font-weight: 900;
+    font-weight: normal; */
+/* } */
+
+
+/* Link */
+/* Link - Pseudo Class Selector */
+
+/* Unvisited Link */
+/* a:link{
+    color: green;
+    text-decoration: none;
+} */
+
+/* Visited Link */
+/* a:visited{
+    color: yellow;
+} */
+
+/* Hover */
+/* a:hover{
+    color: pink;
+} */
+
+/* Active */
+/* a:active{
+    color: darkred;
+} */
+
+
+/* List Style */
+/* ul{
+    list-style: square;
+    list-style: circle;
+    list-style: disc;
+    list-style: decimal;
+    list-style: none;
+} */
+
+/* ol{
+    list-style: decimal;
+    list-style: lower-alpha;
+    list-style: upper-alpha;
+    list-style: lower-roman;
+    list-style: upper-roman;
+    list-style: lower-greek;
+    list-style: none;
+} */
+
+
+/* Table */
+/* table{
+    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-collapse: collapse;
+} */
