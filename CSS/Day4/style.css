@@ -1,0 +1,128 @@
+/* Display: Block */
+/* .box1{
+    display: block;
+    background-color: skyblue;
+}
+.box2{
+    display: block;
+    background-color: lightgreen;
+} */
+
+
+/* Display: Inline */
+/* span{
+    display: inline;
+    background-color: aqua;
+} */
+/* .color{
+    color: red;
+} */
+
+
+/* Display: Inline-Block */
+/* span{
+    display: inline-block;
+    background-color: red;
+    padding: 20px;
+    height: 100px;
+    width: 200px;
+} */
+
+
+/* Display: None */
+/* p{
+    display: none;
+    opacity: 0;
+} */
+
+
+/* Display: Flex */
+/* .flex{
+    display: flex;
+} */
+
+
+/* Displau: Grid */
+/* .grid{
+    display: grid;
+    grid-template-columns: 100px 100px;
+
+} */
+
+
+/* Display: Tables */
+/* .tables{
+    display: table;
+}
+.tables p{
+    display: table-cell;
+    padding: 10px;
+} */
+
+
+/* Display: Inline-Flex */
+/* .in-flex{
+    display: inline-flex;
+} */
+
+
+/* Display: Inline-Grid */
+/* .in-grid{
+    display: inline-grid;
+    grid-template-columns: 500px 100px;
+} */
+
+
+/* FlexBox */
+/* FlexRow */
+/* .flex{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: right;
+    justify-content: left;
+    justify-content: start;
+    justify-content: end;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+} */
+
+/* FlexColumn */
+/* .flex{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    align-items: start;
+    align-items: end;
+    align-items: flex-end;
+    align-items: flex-start;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+} */
+
+
+/* Reset Page and Basic Button Styling */
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+button{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 16px;
+    font-size: 12px;
+    margin: 30px;
+}
+button:hover{
+    background-color: greenyellow;
+} */
