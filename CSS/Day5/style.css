@@ -1,0 +1,132 @@
+/* Grid Layout */
+/* * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr 50px;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    height: 100vh;
+    padding: 10px;
+    gap: 10px;
+}
+
+.header {
+    grid-area: header;
+    background-color: green;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: blue;
+}
+
+.main {
+    grid-area: main;
+    background-color: orange;
+}
+
+.footer {
+    grid-area: footer;
+    background: red;
+}
+
+.container>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+} */
+
+
+/* OverFlow */
+/* p{
+    height: 100px;
+    width: 200px;
+    border: 2px solid red;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: visible;
+    overflow: auto;
+} */
+
+
+/* Pseudo Classes */
+
+/* Hover */
+/* button{
+    background-color: green;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: rebeccapurple;
+} */
+
+/* Active */
+/* button:active{
+    color: red;
+    background-color: aqua;
+} */
+
+/* Focus */
+/* input:focus{
+    border: 2px solid aqua;
+    outline: none;
+} */
+
+/* First, last, nth Child */
+/* p:first-child{
+    color: red;
+}
+p:last-child{
+    color: aqua;
+}
+p:nth-child(1){
+    color: blue;
+} */
+
+/* Checked */
+/* input:checked{
+    height: 100px;
+    width: 100px;
+} */
+
+/* Not Selected */
+/* p:not(.skip){
+    color: red;
+} */
+
+/* Disabled */
+/* input:disabled{
+    background-color: aqua;
+    cursor: not-allowed;
+} */
+
+/* Enabled */
+/* input:enabled{
+    border: 2px solid blue;
+    outline: none;
+} */
+
+/* First, last, nth type */
+/* p:first-of-type{
+    color: red;
+}
+p:last-of-type{
+    color: aqua;
+}
+p:nth-of-type(4){
+    color: blueviolet;
+} */
