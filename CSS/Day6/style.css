@@ -1,0 +1,190 @@
+/* *{
+    margin: 0;
+} */
+
+/* Positions */
+
+/* Static */
+/* .box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: static;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: static;
+} */
+
+
+/* Releative */
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    margin-top: 200px;
+    margin-left: 200px;
+} */
+
+
+/* Absolute */
+/* .parent{
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: springgreen;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+} */
+
+
+/* Fixed */
+/* .chat{
+    background-color: orange;
+    padding: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+} */
+
+
+/* Sticky */
+/* .sticky{
+    background-color: aqua;
+    padding: 20px;
+    position: sticky;
+    top: 100px;
+} */
+
+
+/* Z - Index */
+/* .box1{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1001;
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: absolute;
+    z-index: 1000;
+} */
+
+
+/* Pesudo Elements */
+
+/* Before */
+/* h1::before{
+    content: "HTML: ";
+} */
+
+/* After */
+/* h1::after{
+    content: " - It is used to structure the webpage";
+} */
+
+/* First Letter */
+/* p::first-letter{
+    color: blueviolet;
+    font-size: 60px;
+} */
+
+/* First Line */
+/* p::first-line{
+    color: crimson;
+    font-style: italic;
+} */
+
+/* Selection */
+/* ::selection{
+    background-color: black;
+    color: green;
+} */
+
+/* Placeholder */
+/* input::placeholder{
+    color: aqua;
+    font-style: italic;
+} */
+
+/* Marker */
+/* li::marker{
+    color: red;
+    font-size: 50px;
+} */
+
+/* BackDrop */
+/* dialog::backdrop{
+    background-color: rgba(33, 33, 33, 0.5);
+} */
+
+
+/* Transitions */
+/* button{
+    background-color: royalblue;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer; */
+
+    /* Transition Syntax: */
+    /* transition: property duration timing-function; */
+
+    /* Linear - same speed */
+    /* transition: background 3s linear; */
+
+    /* ease -  slow-fast-slow */
+    /* transition: background 3s ease; */
+
+    /* ease-in - slow-fast */
+    /* transition: background 3s ease-in; */
+
+    /* ease-out - fast-slow */
+    /* transition: background 3s ease-out; */
+
+    /* .ease-in-out - slow-fast-slow - smoothness */
+    /* transition: background 0.5s ease-in-out; */
+
+/* }
+button:hover{
+    background-color: greenyellow;
+} */
+ 
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua; */
+
+    /* transition: height 5s ease-in-out, width 1s ease-in-out, background 1s ease-in-out; */
+    /* transition: all 1s ease-in-out; */
+
+/* }
+div:hover{
+    height: 600px;
+    width: 600px;
+    background-color: greenyellow;
+} */

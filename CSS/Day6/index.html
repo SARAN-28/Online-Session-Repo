@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day6</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Positions -->
+    <!-- 
+     1. Static - Default
+     2. Releative
+     3. Absolute
+     4. Fixed
+     5. Sticky 
+     -->
+
+    <!-- Static - Default -->
+    <div class="box1"></div>
+    <div class="box2"></div>
+
+    <!-- Releative -->
+    <div class="box"></div>
+
+    <!-- Absolute -->
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+
+    <!-- Fixed -->
+    <p>lorem10000</p>
+    <div class="chat">Chat</div>
+
+    <!-- Sticky -->
+    <p>lorem500</p>
+    <div class="sticky">Position Sticky...</div>
+    <p>lorem1000</p>
+
+
+    <!-- Z - Index -->
+    <div class="box1"></div>
+    <div class="box2"></div>
+
+
+    <!-- Pesudo Elements :: -->
+    <!-- Before -->
+    <h1>Hyper Text Markup Language</h1>
+
+    <!-- After -->
+    <h1>Hyper Text Markup Language</h1>
+
+    <!-- First Letter -->
+    <p>Good Morning</p>
+
+    <!-- First Line -->
+    <p>Good Morning <br> To All</p>
+
+    <!-- Selection -->
+    <p>Good Morning</p>
+    <p>Good AfterNoon</p>
+    <p>Good Evening</p>
+
+    <!-- Placeholder -->
+    <input type="text" placeholder="Enter your Name">
+
+    <!-- Marker -->
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <!-- BackDrop -->
+    <button onclick="document.querySelector('dialog').showModal()">Open Modal</button>
+
+    <dialog>
+        <h2>Are you sure want to delete it</h2>
+        <button>Yes</button>
+        <button onclick="document.querySelector('dialog').close()">No</button>
+    </dialog>
+
+
+    <!-- Transitions -->
+    <button>Submit</button>
+    <div></div>
+    
+</body>
+
+</html>
