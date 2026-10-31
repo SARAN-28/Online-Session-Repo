@@ -1,0 +1,166 @@
+/* Transform */
+/* button{
+    background-color: royalblue;
+    color: white;
+    padding: 20px 100px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    transition: transform 0.2s ease-in-out;
+}
+button:hover{
+    background-color: yellowgreen; */
+
+    /* Zoom Out */
+    /* transform: scale(0.9); */
+
+    /* Zoom In */
+    /* transform: scale(1.1); */
+
+    /* Move Right */
+    /* transform: translateX(200px); */
+
+    /* Move Down */
+    /* transform: translateY(200px); */
+
+    /* Move Left */
+    /* transform: translateX(-30px); */
+
+    /* Move Top */
+    /* transform: translateY(-50px);
+} */
+
+
+/* Animation */
+
+/* Identifiers - Move */
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet; */
+
+    /* animation: move 1s infinite; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation: move 1s ease-in-out 5s infinite alternate forwards;  */
+
+    /* Direction */
+    /* animation: move 1s ease-in-out infinite alternate; */
+    /* animation: move 1s ease-in-out infinite alternate-reverse; */
+    /* animation: move 1s ease-in-out infinite reverse; */
+    /* animation: move 1s ease-in-out infinite normal; */
+
+    /* Fill Mode */
+    /* animation: move 1s ease-in-out forwards;
+    animation: move 1s ease-in-out backwards;
+    animation: move 1s ease-in-out both;
+    animation: move 1s ease-in-out none;
+
+} */
+
+
+/* Animation - Syntax */
+/* @keyframes identifier {
+    
+} */
+
+
+/* @keyframes move {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(200px);
+    }
+} */
+
+
+/* Identifiers - Zoom */
+/* .box{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+    animation: zoom 1s ease-in-out infinite alternate;
+}
+@keyframes zoom {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(2.5);
+        background-color: yellow;
+    }
+} */
+
+
+/* Identifier - Spin */
+/* .box{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+
+    animation: spin 1s ease-in-out infinite alternate;
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+} */
+
+
+/* Use All */
+/* .box{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+
+    animation: animate 2s ease-in-out infinite alternate;
+}
+@keyframes animate {
+    from{
+        transform: translateX(0) scale(1) rotate(0deg);
+        opacity: 0.5;
+    }
+    to{
+        transform: translateX(500px) scale(2.5) rotate(360deg);
+        height: 300px;
+        width: 300px;
+        background-color: aqua;
+        border-radius: 50%;
+    }
+} */
+
+
+/* Responsive Design and Media Query */
+/* Fluid Grid */
+/* .container{
+    width: 500px;
+    background-color: aqua;
+}
+.container{
+    width: 80%;
+    background-color: aqua;
+} */
+
+/* Flexible Image */
+/* img{
+    max-width: 100%;
+    height: auto;
+} */
